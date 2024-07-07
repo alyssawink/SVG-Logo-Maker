@@ -23,3 +23,30 @@ class Svg {
         this.shapeElement = shape.render();
     }
 }
+
+const questions = [
+    {
+        type: 'input',
+        name: 'text',
+        message: 'TEXT: Enter up to 3 Characters:',
+        validate: function (input) {
+            return input.length > 0 && input.length <= 3; // Validate text input length
+        }
+    },
+    {
+        type: 'input',
+        name: 'textColor',
+        message: 'TEXT COLOR: Enter a color keyword or hexadecimal number:',
+    },
+    {
+        type: 'input',
+        name: 'shapeColor',
+        message: 'SHAPE COLOR: Enter a color keyword or hexadecimal number:',
+    },
+    {
+        type: 'list',
+        name: 'shapeType',
+        message: 'Select preferred shape:',
+        choices: ['Circle', 'Square', 'Triangle'],
+    },
+];
