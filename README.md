@@ -18,6 +18,7 @@ To Verify
 - use the command "npm test" in your terminal then follow prompt.
 
 ## Application Image
+![Screenshot 2024-07-06 at 11 01 02 PM](https://github.com/alyssawink/SVG-Logo-Maker/assets/157747737/802b2ddb-0d7c-42d5-90bf-431efa3c0084)
 
 ## URLs
 https://github.com/alyssawink/SVG-Logo-Maker
